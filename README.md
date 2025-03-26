@@ -1,16 +1,25 @@
-<!-- Hi there 👋 -->
+# ROCK vs MINE Prediction
+This Project Predicts whether an object detected by sonar is a **Rock** or **Mine** using Machine Learning algorithm **Logistic Regression**.
+The model classifies sonal signal data into one of two categories:
 
-<!--
-**Vinaya-Busam/Vinaya-Busam** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- **Rock (R)** -> A natural underwater rock formation
+- **Mine (M)** -> A Potential explosive mine
 
-Here are some ideas to get you started:
+## Dataset
+The dataset consists of sonal signals bounced off objects in water. It contains **60 features**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+The **Target variable** has two categories:
+
+- **R** -> Rock
+- **M** -> Mine
+
+### Language Used:
+ - Python
+### Libraries Used:
+ - pandas (Data Processing)
+  
+ - numpy (numerical operations)
+  
+ - matplotlib & seaborn (visualisation)
+  
+ - scikit-learn (Machine Learning Model)
